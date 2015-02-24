@@ -30,7 +30,7 @@ message "Installing jekyll"
 gem install jekyll
 
 message "Installing NodeJS"
-apt-get install nodejs
+sudo apt-get install nodejs
 
 # Install dependencies if a Gemfile is present
 if [ -f Gemfile ]
